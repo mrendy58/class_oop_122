@@ -22,7 +22,7 @@ public:
         cout << "Nama Matakuliah :" << namaM;
         cout << "SKS :" << sks;
     }
-    void tampilan() {
+    void tampil() {
         cout << "kode Matakuliah :" << kode;
         cout << "Nama Matakuliah :" << namaM;
         cout << "SKS :" << sks;
@@ -32,5 +32,14 @@ int main()
 {
     Mahasiswa mhs1;
     Matakuliah mk; 
+
+    cout << "Masukan NIM :";
+    cin >> mhs1.nim;
+    cout << "Masukan Nama :";
+    cin >> mhs1.nama;
+    mhs1.cetak();
+
+    mk.input();
+    mk.tampil();
 }
 
