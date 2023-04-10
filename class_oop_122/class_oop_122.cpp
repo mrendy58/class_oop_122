@@ -18,6 +18,9 @@ private:
     int sks;
 public:
     void input() {
+        cout << "Masukan kode Matakuliah :" << kode;
+        cout << "Nama Matakuliah :" << namaM;
+        cout << "SKS :" << sks;
     }
 };
 int main()
